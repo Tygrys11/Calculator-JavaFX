@@ -1,0 +1,52 @@
+#root
+{
+    -fx-background-color: #222;
+    -fx-background-radius: 28;
+}
+
+.bgGradient
+{
+    -fx-background-color: linear-gradient(to left, #008080, #AFEEEE, #008080);
+    -fx-background-radius: 5 5 28 28;
+}
+
+.closebutton
+{
+    -fx-cursor: hand;
+}
+
+.Minimumbutton
+{
+    -fx-cursor: hand;
+}
+
+.buttons
+{
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+    -fx-background-color: black;
+    -fx-background-radius: 10px;
+    -fx-border: 4px;
+    -fx-font-weight: 500;
+    -fx-border-radius: 10px;
+    -fx-border-color: teal;
+    -fx-font-size: 15px;
+}
+
+.buttons:hover
+{
+    -fx-background-color: white;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-font-size: 12px;
+}
+
+.textfield
+{
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-border: 4px;
+    -fx-border-color: black;
+    -fx-border-radius: 10px;
+}
